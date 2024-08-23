@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfLazy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLazy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button x:Name="btnClickCreate" Content="Create Collection" Click="BtnClickCreate_Click"></Button>
+        <Button x:Name="btnClick" Content="getFirstitem" Click="BtnClick_Click"></Button>
+        <Button x:Name="btnClick2" Content="getSeconditem" Click="BtnClick2_Click"></Button>
+    </StackPanel>
+</Window>
